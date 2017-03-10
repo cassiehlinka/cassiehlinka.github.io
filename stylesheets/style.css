@@ -939,6 +939,24 @@ h6 {
 		height: 250px;
 	}
 
+	/*Highlight*/
+	#highlightflogo.detail-large-image {
+		margin-top: 175px;
+	}
+
+	#highlighticons.detail-large-image {
+		margin-top: 175px;
+	}
+
+	#highlightstyle1.detail-xl-image {
+		height: 300px;
+	}
+
+	#highlightstyle2.detail-xl-image {
+		height: 300px;
+	}
+
+
 	/*GoOutSafe*/
 	iframe {
 		width: 100%;
