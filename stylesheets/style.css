@@ -422,6 +422,17 @@ h6 {
 	text-align: right;
 }
 
+#coffeemock2.detail-xl-image {
+	background-image: url('../images/coffee_mock2.jpg');
+	height: 800px;
+}
+
+#coffeemock3.detail-xl-image {
+	background-image: url('../images/coffee_mock3.jpg');
+	background-size: cover;
+	height: 600px;
+}
+
 /* Resume */
 
 #resume {
@@ -525,7 +536,7 @@ h6 {
 	background-repeat: no-repeat;
 }
 
-<<<<<<< HEAD
+
 #highlightlogos.detail-large-image {
 	background-image: url('../images/highlight_logos.png');
 	background-size: contain;
@@ -674,8 +685,7 @@ h6 {
 #espeech.detail-feature-image {
 	background-image: url('../images/es_hero.jpg');
 }
-=======
->>>>>>> 0438c5923befdc7c0c6d704f4433f4b1b1c8f7bd
+
 
 @media screen and (max-width: 500px) {
 
@@ -863,6 +873,16 @@ h6 {
 		height: 200px;
 	}
 
+	#coffeemock2.detail-xl-image {
+		height: 300px;
+		background-size: cover;
+	}
+
+	#coffeemock3.detail-xl-image {
+		height: 250px;
+		background-size: cover;
+	}
+
 	/*Resume*/
 
 	#resume {
@@ -919,7 +939,6 @@ h6 {
 		height: 250px;
 	}
 
-<<<<<<< HEAD
 	/*GoOutSafe*/
 	iframe {
 		width: 100%;
@@ -956,9 +975,6 @@ h6 {
 		height: 300px;
 	}
 
-=======
->>>>>>> 0438c5923befdc7c0c6d704f4433f4b1b1c8f7bd
-}
 
 /*Media Query Tablet*/
 
@@ -1000,6 +1016,20 @@ h6 {
 
 	#bottles.detail-large-image {
 		margin-top: 75px;
+	}
+
+	.detail-xl-image {
+		height: 400px;
+	}
+
+	#coffeemock2.detail-xl-image {
+		height: 400px;
+		background-size: cover;
+	}
+
+	#coffeemock3.detail-xl-image {
+		height: 400px;
+		background-size: cover;
 	}
 
 	/*Resume*/
@@ -1050,7 +1080,6 @@ h6 {
 		height: 450px;
 	}
 
-<<<<<<< HEAD
 	/*GoOutSafe*/
 
 	#gooutposter.detail-large-image {
@@ -1069,9 +1098,6 @@ h6 {
 	#gooutmock7.detail-xl-image {
 		height: 400px;
 	}
-
-=======
->>>>>>> 0438c5923befdc7c0c6d704f4433f4b1b1c8f7bd
 
 }
 
