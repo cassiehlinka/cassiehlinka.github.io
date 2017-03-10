@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Muli:400,700,900" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+
+  </head>
+  <body>
+    <div class="container-fluid">
+
+
+      <div class="nav row">
+
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-9 home-link" >
+          <div class="logo">
+          <img src="images/ch_logo.png" alt="Cassandra Hlinka" style="width:30px;height:30px;">
+          </div>
+
+          <div class="name">
+          <a href="index.html"><h5>Cassandra Hlinka</h5></a>
+          </div>
+
+
+
+        </div>
+
+        <div class="col-xs-1 col-xs-push-1 hamburger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <div class="col-lg-4 col-lg-push-2 col-md-4 col-md-push-2 col-sm-5 col-sm-push-1 menu">
+          <a href="index.html">Portfolio</a>
+          <a href="about.html">About</a>
+          <a href="resume.html" id="nav">Resume</a>
+
+        </div>
+
+        <style>
+            .menu { display: flex; justify-content: space-between; }
+        </style>
+
+      </div>
+
+
+      <div class="row" id="contact-page">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12" id="profile">
+            </div>
+
+            <div class="col-lg-6 col-lg-push-1 col-md-5 col-md-push-1 col-sm-7 col-xs-12 bio">
+              <h1 id="contact-greeting">Hi There!</h1>
+              <br>
+              <p>I am a fifth year honors student at Northeastern University in the College of Arts, Media, and Design, concentrating in Graphic and Information Design and minoring in Art History and Architectural History.</p>
+              <p>During my time at Northeastern, I have learned a great deal about design both in the classroom and during my free time. I recently finished my digital design co-op at America's Test Kitchen, where I worked on web and UX design, and am now a freelance designer for the same company. Over the past year, I have also been a part of SCOUT, Northeastern’s student-lead design studio. In the spring and summer of 2015, I acted as the Creative Lead for IDEA, Northeastern University's Venture Accelerator. I have also done freelance work for several organizations and companies, including Peoples Television Inc., Northeastern University’s Center for Resilience Studies, and Northeastern University's Global Student Success Office.</p>
+              <p>I am an enthusiastic, hard-working, and dedicated designer who is always looking to learn more about design.</p>
+              <br>
+              <br>
+            <hr>
+            </div>
+
+      </div>
+
+      <div class="row" id="contact-info">
+        <div class="col-lg-3 col-lg-push-6 col-md-3 col-md-push-6 col-sm-3 col-sm-push-5 col-xs-6" id="contact">
+          <h2>Contact</h2>
+          <br>
+          <h4>Email</h4>
+          <a href="mailto:cchlinka@gmail.com"><p>cchlinka@gmail.com</p></a>
+          <br>
+          <h4>Social Media</h4>
+          <p><a target="blank" href="https://www.linkedin.com/in/cassandra-hlinka-20800a6a">LinkedIn</a>&emsp;|&emsp;<a target="blank" href="https://www.facebook.com/cassie.hlinka">Facebook</a></p>
+        </div>
+
+        <div class="col-lg-3 col-lg-push-6 col-md-3 col-md-push-6 col-sm-4 col-sm-push-5 col-xs-6" id="experience">
+          <h2>Experience</h2>
+          <br>
+          <h4>Currently</h4>
+          <p>Project Lead at <a target="blank" href="http://www.northeastern.edu/scout/">Scout</a></p>
+          <p>Freelance Designer for <a target="blank" href="https://www.americastestkitchen.com/">America's Test Kitchen</a></p>
+          <br>
+          <h4>January 2016 &ndash; July 2016</h4>
+          <p>Digital Design Co-op at <a target="blank" href="https://www.americastestkitchen.com/">America's Test Kitchen</a></p>
+          <br>
+          <a href="resume.html">See More on my Resume Page</a>
+        </div>
+      </div>
+
+          <div class="test-menu">
+      <div class="col-xs-12 mobile-nav">
+        <a href="index.html">Portfolio</a>
+        <hr>
+        <a href="about.html">About</a>
+        <hr>
+        <a href="resume.html" id="nav">Resume</a>
+      </div>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- jQuery for nav -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.hamburger').click(function() {
+        $('.test-menu').toggleClass('is-open');
+      });
+    }); 
+    </script>
+
+    <script type="text/javascript">
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+    </script>
+
+
+  </body>
+</html>
