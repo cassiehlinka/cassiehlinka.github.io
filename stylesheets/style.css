@@ -891,6 +891,20 @@ h6 {
 		height: 400px;
 	}
 
+	/*Highlight*/
+
+	#highlightstyle1.detail-xl-image {
+		height: 650px;
+	}
+
+	#highlightstyle2.detail-xl-image {
+		height: 650px;
+	}
+
+	#highlightmock.detail-xl-image {
+		height: 275px;
+	}
+
 	/*EverydaySpeech*/
 
 	#esfinallogo.detail-large-image {
