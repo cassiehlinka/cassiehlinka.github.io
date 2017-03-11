@@ -728,6 +728,41 @@ h6 {
 	height: 600px;
 }
 
+/*Scout*/
+
+#scout.detail-feature-image {
+	background-image: url('../images/scoutposters_hero.jpg');
+}
+
+.detail-scout {
+	background-image: url('../images/scout_posterideo.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 425px;
+	margin-bottom: 50px;
+}
+
+#dj.detail-scout {
+	background-image: url('../images/scout_posterdj.jpg');
+}
+
+#lives.detail-scout {
+	background-image: url('../images/scout_posterlives.jpg');
+}
+
+#lettering.detail-scout {
+	background-image: url('../images/scout_posterlettering.jpg');
+}
+
+#git.detail-scout {
+	background-image: url('../images/scout_postergit.jpg');
+}
+
+#ctodd.detail-scout {
+	background-image: url('../images/scout_posterctodd.jpg');
+}
+
 /*Media Query Tablet*/
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -873,6 +908,12 @@ h6 {
 
 	#esmock2.detail-xl-image {
 		height: 400px;
+	}
+
+	/*ScoutPosters*/
+
+	.detail-scout {
+		height: 350px;
 	}
 }
 
@@ -1205,6 +1246,13 @@ h6 {
 
 	#esmock2.detail-xl-image {
 		height: 200px;
+	}
+
+	/*ScoutPosters*/
+
+	.detail-scout {
+		height: 250px;
+		margin-bottom: 20px;
 	}
 
 }
