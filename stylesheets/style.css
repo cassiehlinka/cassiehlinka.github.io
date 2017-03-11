@@ -835,13 +835,17 @@ h6 {
 
 	/*GoOutSafe*/
 
+	#gooutmoodboards.detail-large-image {
+		height: 300px;
+	}
+
 	#gooutposter.detail-large-image {
 		margin-top: 125px;
 	}
 
 
 	#gooutscreens.detail-large-image {
-		height: 500px;
+		height: 450px;
 	}
 
 	.detail-m-image {
