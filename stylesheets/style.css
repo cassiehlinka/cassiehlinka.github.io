@@ -680,10 +680,196 @@ h6 {
 	height: 600px;
 }
 
-/*Highlight*/
+/*EverydaySpeech*/
 
 #espeech.detail-feature-image {
 	background-image: url('../images/es_hero.jpg');
+}
+
+#eslogos.detail-large-image {
+	background-image: url('../images/es_logosketches.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#esfinallogo.detail-large-image {
+	background-image: url('../images/es_finallogo.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#estype.detail-large-image {
+	background-image: url('../images/es_typelayout.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+#esabout.detail-large-image {
+	background-image: url('../images/es_aboutus.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 1500px;
+}
+
+#esmock1.detail-xl-image {
+	background-image: url('../images/es_mock1.jpg');
+	background-size: cover;
+	height: 700px;
+}
+
+#esmock2.detail-xl-image {
+	background-image: url('../images/es_mock2.jpg');
+	background-size: cover;
+	height: 600px;
+}
+
+/*Media Query Tablet*/
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+
+	.row {
+		margin: 50px 0px 75px 0px;
+	}	
+
+	.featured-image {
+		height: 450px;
+	}
+
+	.sm-featured-image {
+		height: 300px;
+	}
+
+	.xs-featured-image {
+		height: 250px;
+	}
+
+	/*Detail*/
+
+	.detail-large-image {
+		height: 250px;
+	}
+
+	#left.detail-featured-text {
+		transform: translate(-95%, 25%);
+	}
+
+	.detail-featured-text {
+		transform: translate(160%, 10%);
+	}
+
+	#logos.detail-large-image {
+		margin-top: 100px;
+	}
+
+	#bottles.detail-large-image {
+		margin-top: 75px;
+		height: 250px;
+	}
+
+	.detail-xl-image {
+		height: 400px;
+	}
+
+	#coffeemock2.detail-xl-image {
+		height: 500px;
+		background-size: cover;
+	}
+
+	#coffeemock3.detail-xl-image {
+		height: 400px;
+		background-size: cover;
+	}
+
+	/*Resume*/
+
+	#resume {
+		height: 925px;
+	}
+
+	/*About*/
+
+	#profile {
+		height: 300px;
+	}
+
+	.bio {
+		padding-left: 30px;
+	}
+
+	#contact {
+		padding-left: 30px;
+	}
+
+	#experience {
+		padding-left: 30px;
+	}
+
+	/*ATK*/
+
+	#atksketch.detail-large-image {
+		margin-top: 50px;
+	}
+
+	#atkmobilewires.detail-large-image {
+		height: 250px;
+		background-position: right;
+	}
+
+	#atkdesktop.detail-large-image {
+		height: 660px;
+		margin-top: 150px;
+	}
+
+	#atkmobilescreen.detail-xl-image {
+		height: 275px;
+	}
+
+	#atkdeskscreen.detail-xl-image {
+		height: 450px;
+	}
+
+	/*GoOutSafe*/
+
+	#gooutposter.detail-large-image {
+		margin-top: 125px;
+	}
+
+
+	#gooutscreens.detail-large-image {
+		height: 500px;
+	}
+
+	.detail-m-image {
+		height: 300px;
+	}
+
+	#gooutmock7.detail-xl-image {
+		height: 400px;
+	}
+
+	/*EverydaySpeech*/
+
+	#esfinallogo.detail-large-image {
+		margin-top: 50px;
+	}
+
+	#esabout.detail-large-image {
+		height: 1100px;
+		background-size: contain;
+	}
+
+	#esmock1.detail-xl-image {
+		height: 500px;
+	}
+
+	#esmock2.detail-xl-image {
+		height: 400px;
+	}
 }
 
 
@@ -993,128 +1179,28 @@ h6 {
 		height: 300px;
 	}
 
+		/*EverydaySpeech*/
 
-/*Media Query Tablet*/
-
-@media screen and (min-width: 600px) and (max-width: 800px) {
-
-	.row {
-		margin: 50px 0px 75px 0px;
-	}	
-
-	.featured-image {
-		height: 450px;
+	#esfinallogo.detail-large-image {
+		margin-top: 200px;
 	}
 
-	.sm-featured-image {
-		height: 300px;
+	#estype.detail-large-image {
+		height: 200px;
 	}
 
-	.xs-featured-image {
-		height: 250px;
-	}
-
-	/*Detail*/
-
-	.detail-large-image {
-		height: 250px;
-	}
-
-	#left.detail-featured-text {
-		transform: translate(-20%, 75%);
-	}
-
-	.detail-featured-text {
-		transform: translate(110%, 75%);
-	}
-
-	#logos.detail-large-image {
-		margin-top: 100px;
-	}
-
-	#bottles.detail-large-image {
-		margin-top: 75px;
-	}
-
-	.detail-xl-image {
-		height: 400px;
-	}
-
-	#coffeemock2.detail-xl-image {
-		height: 400px;
-		background-size: cover;
-	}
-
-	#coffeemock3.detail-xl-image {
-		height: 400px;
-		background-size: cover;
-	}
-
-	/*Resume*/
-
-	#resume {
-		height: 925px;
-	}
-
-	/*About*/
-
-	#profile {
-		height: 300px;
-	}
-
-	.bio {
-		padding-left: 30px;
-	}
-
-	#contact {
-		padding-left: 30px;
-	}
-
-	#experience {
-		padding-left: 30px;
-	}
-
-	/*ATK*/
-
-	#atksketch.detail-large-image {
-		margin-top: 50px;
-	}
-
-	#atkmobilewires.detail-large-image {
-		height: 250px;
-		background-position: right;
-	}
-
-	#atkdesktop.detail-large-image {
-		height: 660px;
+	#esabout.detail-large-image {
+		height: 600px;
+		background-size: contain;
 		margin-top: 150px;
 	}
 
-	#atkmobilescreen.detail-xl-image {
-		height: 275px;
+	#esmock1.detail-xl-image {
+		height: 250px;
 	}
 
-	#atkdeskscreen.detail-xl-image {
-		height: 450px;
-	}
-
-	/*GoOutSafe*/
-
-	#gooutposter.detail-large-image {
-		margin-top: 125px;
-	}
-
-
-	#gooutscreens.detail-large-image {
-		height: 500px;
-	}
-
-	.detail-m-image {
-		height: 300px;
-	}
-
-	#gooutmock7.detail-xl-image {
-		height: 400px;
+	#esmock2.detail-xl-image {
+		height: 200px;
 	}
 
 }
