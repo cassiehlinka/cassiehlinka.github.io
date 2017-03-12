@@ -635,6 +635,8 @@ h6 {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 400px;
+	margin-bottom: 5px;
+	border: 10px solid #FAFAFA;
 }
 
 #gooutmock2.detail-m-image {
@@ -647,7 +649,7 @@ h6 {
 #gooutmock3.detail-m-image {
 	background-image: url('../images/gooutsafe_mock3d.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
 }
 
@@ -678,6 +680,7 @@ h6 {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 600px;
+	border: 10px solid #FAFAFA;
 }
 
 /*EverydaySpeech*/
@@ -1231,11 +1234,13 @@ h6 {
 
 	.detail-m-image {
 		height: 200px;
-		margin-bottom: 30px;
+		margin-bottom: 15px;
+		border: none;
 	}
 
 	#gooutmock7.detail-xl-image {
 		height: 300px;
+		border: none;
 	}
 
 		/*EverydaySpeech*/
