@@ -801,6 +801,73 @@ h6 {
 	border: 10px solid #FAFAFA;
 }
 
+/*Architecture*/
+
+#architecture.detail-feature-image {
+	background-image: url('../images/architecture_hero.jpg');
+}
+
+#arch11.detail-m-image {
+	background-image: url('../images/architecture_1_1.jpg');
+}
+
+#arch12.detail-m-image {
+	background-image: url('../images/architecture_1_2.jpg');
+}
+
+#arch13.detail-xl-image {
+	background-image: url('../images/architecture_1_3.jpg');
+	background-size: cover;
+	border: 10px solid #FAFAFA;
+}
+
+#arch1model.detail-xl-image {
+	background-image: url('../images/architecture_1_model.jpg');
+	background-size: cover;
+	border: 10px solid #FAFAFA;
+	height: 700px;
+}
+
+#arch21.detail-m-image {
+	background-image: url('../images/architecture_2_1.jpg');
+}
+
+#arch22.detail-m-image {
+	background-image: url('../images/architecture_2_2.jpg');
+}
+
+#arch23.detail-xl-image {
+	background-image: url('../images/architecture_2_3.jpg');
+	background-size: cover;
+	border: 10px solid #FAFAFA;
+}
+
+#arch2model.detail-xl-image {
+	background-image: url('../images/architecture_2_model.jpg');
+	background-size: cover;
+	border: 10px solid #FAFAFA;
+	height: 700px;
+}
+
+#arch31.detail-xl-image {
+	background-image: url('../images/architecture_3_1.jpg');
+	background-size: cover;
+	border: 10px solid #FAFAFA;
+}
+
+#arch32.detail-xl-image {
+	background-image: url('../images/architecture_3_2.jpg');
+	background-size: cover;
+	border: 10px solid #FAFAFA;
+}
+
+#arch3model.detail-xl-image {
+	background-image: url('../images/architecture_3_model.jpg');
+	background-size: cover;
+	border: 10px solid #FAFAFA;
+	height: 700px;
+}
+
 /*Media Query Tablet*/
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -966,6 +1033,37 @@ h6 {
 
 	.detail-scout {
 		height: 350px;
+	}
+
+	/*Architecture*/
+
+
+	#arch13.detail-xl-image {
+		height: 300px;
+	}
+
+	#arch1model.detail-xl-image {
+		height: 500px;
+	}
+
+	#arch23.detail-xl-image {
+		height: 300px;
+	}
+
+	#arch2model.detail-xl-image {
+		height: 500px;
+	}
+
+	#arch31.detail-xl-image {
+		height: 300px;
+	}
+
+	#arch32.detail-xl-image {
+		height: 300px;
+	}
+
+	#arch3model.detail-xl-image {
+		height: 500px;
 	}
 }
 
@@ -1326,6 +1424,63 @@ h6 {
 		height: 200px;
 		border: none;
 	}
+
+	/*Architecture*/
+
+
+	#arch13.detail-xl-image {
+		height: 125px;
+		border: none;
+	}
+
+	#arch11.detail-m-image {
+		height: 275px;
+	}
+
+	#arch12.detail-m-image {
+		height: 275px;
+	}
+
+	#arch1model.detail-xl-image {
+		height: 250px;
+		border: none;
+		margin-top: 15px;
+	}
+
+	#arch23.detail-xl-image {
+		height: 125px;
+		border: none;
+	}
+
+	#arch21.detail-m-image {
+		height: 275px;
+	}
+
+	#arch22.detail-m-image {
+		height: 275px;
+	}
+
+	#arch2model.detail-xl-image {
+		height: 250px;
+		border: none;
+		margin-top: 15px;
+	}
+
+	#arch31.detail-xl-image {
+		height: 125px;
+		border: none;
+	}
+
+	#arch32.detail-xl-image {
+		height: 125px;
+		border: none;
+	}
+
+	#arch3model.detail-xl-image {
+		height: 250px;
+		border: none;
+		margin-top: 15px;
+	}	
 
 }
 
