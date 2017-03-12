@@ -766,6 +766,41 @@ h6 {
 	background-image: url('../images/scout_posterctodd.jpg');
 }
 
+/*IDEA*/
+
+#idea.detail-feature-image {
+	background-image: url('../images/idea_hero.jpg');
+}
+
+#ideamock1.detail-m-image {
+	background-image: url('../images/idea_mockzoom1.jpg');
+}
+
+#ideamock2.detail-m-image {
+	background-image: url('../images/idea_mockzoom2.jpg');
+}
+
+#ideaflat.detail-xl-image {
+	background-image: url('../images/idea_mockflat.jpg');
+	background-size: cover;
+	height: 700px;
+	border: 10px solid #FAFAFA;
+}
+
+#ideawebmock1.detail-xl-image {
+	background-image: url('../images/idea_mockups1.jpg');
+	background-size: cover;
+	height: 600px;
+	border: 10px solid #FAFAFA;
+}
+
+#ideawebmock2.detail-xl-image {
+	background-image: url('../images/idea_mockups2.jpg');
+	background-size: cover;
+	height: 600px;
+	border: 10px solid #FAFAFA;
+}
+
 /*Media Query Tablet*/
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -1272,6 +1307,24 @@ h6 {
 	.detail-scout {
 		height: 250px;
 		margin-bottom: 20px;
+	}
+
+	/*IDEA*/
+
+	#ideaflat.detail-xl-image {
+		height: 225px;
+		border: none;
+	}
+
+	#ideawebmock1.detail-xl-image {
+		height: 250px;
+		border: none;
+		border-bottom: 15px solid #FAFAFA;
+	}
+
+	#ideawebmock2.detail-xl-image {
+		height: 200px;
+		border: none;
 	}
 
 }
