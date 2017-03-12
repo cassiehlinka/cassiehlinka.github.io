@@ -868,6 +868,30 @@ h6 {
 	height: 700px;
 }
 
+/*Rayel*/
+
+#rayel.detail-feature-image {
+	background-image: url('../images/rayel_hero.jpg');
+}
+
+#rayellogofinal.detail-xl-image {
+	background-image: url('../images/rayel_logofinal.jpg');
+	background-size: cover;
+	border: 10px solid #FAFAFA;
+}
+
+#rayellogo1.detail-m-image {
+	background-image: url('../images/rayel_logo1.jpg');
+}
+
+#rayellogo2.detail-m-image {
+	background-image: url('../images/rayel_logo2.jpg');
+}
+
+#rayellogo3.detail-m-image {
+	background-image: url('../images/rayel_logo3.jpg');
+}
+
 /*Media Query Tablet*/
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -1064,6 +1088,24 @@ h6 {
 
 	#arch3model.detail-xl-image {
 		height: 500px;
+	}
+
+	/*Rayel*/
+
+	#rayellogofinal.detail-xl-image {
+		height: 300px;
+	}
+
+	#rayellogo1.detail-m-image {
+		height: 400px;
+	}
+
+	#rayellogo2.detail-m-image {
+		height: 400px;
+	}
+
+	#rayellogo3.detail-m-image {
+		height: 400px;
 	}
 }
 
@@ -1481,6 +1523,25 @@ h6 {
 		border: none;
 		margin-top: 15px;
 	}	
+
+	/*Rayel*/
+
+	#rayellogofinal.detail-xl-image {
+		height: 200px;
+		border: none;
+	}
+
+	#rayellogo1.detail-m-image {
+		height: 400px;
+	}
+
+	#rayellogo2.detail-m-image {
+		height: 400px;
+	}
+
+	#rayellogo3.detail-m-image {
+		height: 400px;
+	}
 
 }
 
