@@ -42,10 +42,10 @@ body {
 	position: absolute;
 	top: 50%;
 	padding: 25px 25px 30px 25px;
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+	-moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
     left: 0;
     transform: translate(-50%,-50%);
 }
@@ -64,20 +64,36 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
+	-moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
 	/*box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.08);*/
+}
+
+.featured-image:hover {
+	box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.08);
+	transform: scale(1.02);
+}
+
+.featured-image:hover h1.homepage{
+	color: #642240;
+}
+
+.featured-image:hover .featured-text{
+	transform: translate(-53%,-50%);
 }
 
 .sm-featured-text {
 	background-color: rgba(255,255,255,0.95);
 	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.15);
-	background-color: white;
 	z-index: 2;
 	padding: 5px 25px 30px 25px;
 	position: absolute;
-	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+	-moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
     right: 0;
     top: 50%;
     transform: translate(40%,-50%);
@@ -91,7 +107,30 @@ body {
 	height: 350px;
 	/*box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.08);*/
 	position: relative;
+	-moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1); 
 
+}
+
+.sm-featured-image:hover {
+	box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.08);
+	transform: scale(1.02);
+}
+
+.sm-featured-image:hover h2.homepage {
+	color: #642240;
+}
+
+.sm-featured-image:hover .sm-featured-text {
+	box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.08);
+	transform: translate(43%,-50%);
+}
+
+.sm-featured-image:hover #left.sm-featured-text {
+	box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.08);
+	transform: translate(-43%,-50%);
 }
 
 /*
@@ -112,10 +151,11 @@ body {
 	padding: 0px;
 	position: relative;
 	/*box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.08);*/
-	-moz-transition: all .5s ease-in;
-    -o-transition: all .5s ease-in;
-    -webkit-transition: all .5s ease-in;
-    transition: all .5s ease-in;
+	-moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1); 
+    overflow: hidden;
 }
 
 .xs-featured-image:hover {
@@ -124,23 +164,21 @@ body {
 }
 
 .xs-featured-image:hover .xs-featured-text {
-	visibility: visible;
-	height: 23%;
+	transform: none;
 }
 
 .xs-featured-text {
 	background-color: rgba(255,255,255,0.95);
-	padding: 2px 10px 20px 15px;
+	padding: 2px 10px 10px 15px;
 	box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.08);
-	visibility: hidden;
 	width: 100%;
-	height: 0px;
 	position: absolute;
     bottom: 0;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+    transform: translateY(100%);
+    -moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 #highlight.xs-featured-image {
@@ -298,9 +336,7 @@ a:hover {
 h1.homepage:hover {
 	color: #642240;
 }
-h2.homepage:hover {
-	color: #642240;
-}
+
 
 hr {
 	border-bottom: 0.25px solid #363636;
