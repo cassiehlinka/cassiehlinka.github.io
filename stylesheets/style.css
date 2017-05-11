@@ -1430,19 +1430,19 @@ h6 {
 		padding-bottom: 200px;
 	}
 
+	#coffee.xs-featured-image {
+		margin-top: 25px;
+	}
+
+	#atk.sm-featured-image {
+		margin-top: 25px;
+	}
+
+	#idea.sm-featured-image {
+		margin-top: 25px;
+	}
+
 	#highlight.xs-featured-image {
-		margin-top: 25px;
-	}
-
-	#espeech.sm-featured-image {
-		margin-top: 25px;
-	}
-
-	#rayel.sm-featured-image {
-		margin-top: 25px;
-	}
-
-	#idea.xs-featured-image {
 		margin-top: 25px;
 	}
 
