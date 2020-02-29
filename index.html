@@ -10,6 +10,9 @@
     <link href="stylesheets/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Muli:400,700,900" rel="stylesheet">
 
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/JavaScript.js"></script>
+
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
   </head>
@@ -59,9 +62,9 @@
       <div class="featured row">
 
         <a href="portico.html">
-        <div class="featured-image pull-right col-lg-9 col-md-9 col-sm-9 col-xs-11">
+        <div class="featured-image pull-right fadeIn col-lg-9 col-md-9 col-sm-9 col-xs-11">
 
-        <div class="featured-text col-lg-6 col-md-6 col-sm-7 col-xs-10">
+        <div class="featured-text fadeIn col-lg-6 col-md-6 col-sm-7 col-xs-10">
           <h4>Featured Project</h4>
           <h1 class="homepage">Portico</h1>
           <body>As the lead designer for Portico, a travel inspiration and planning web application, I develop the design of the web application as more functionality is added to it and build upon the existing branding.</body>
@@ -74,8 +77,8 @@
 
       <div class="row">
         <a href="agentless.html">
-        <div class="sm-featured-image col-lg-6 col-md-6 col-sm-6 col-xs-10" >
-        <div class="sm-featured-text col-lg-6 col-md-6 col-sm-7 col-xs-7" id="right">
+        <div class="sm-featured-image fadeIn col-lg-6 col-md-6 col-sm-6 col-xs-10" >
+        <div class="sm-featured-text fadeIn col-lg-6 col-md-6 col-sm-7 col-xs-7" id="right">
           <h2 class="homepage">Agentless</h2>
           <body>Identity & Web Application Design</body>
         </div>
@@ -86,7 +89,7 @@
 
 
         <a href="gaudi.html">
-        <div class="xs-featured-image col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-4" id="gaudi">
+        <div class="xs-featured-image fadeIn col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-4" id="gaudi">
           <div class="xs-featured-text">
             <h3>Works of Antoni Gaudí</h3>
           </div>
@@ -99,7 +102,7 @@
 
       <div class="row">
         <a href="coffee.html">
-          <div class="xs-featured-image col-lg-4 col-md-4 col-sm-4 col-xs-8" id="coffee">
+          <div class="xs-featured-image fadeIn col-lg-4 col-md-4 col-sm-4 col-xs-8" id="coffee">
           <div class="xs-featured-text">
             <h3>Commonwealth Coffee Co.</h3>
           </div>
@@ -109,8 +112,8 @@
         <div class="sm-featured" id="scout">
 
         <a href="atk.html">
-        <div class="sm-featured-image col-lg-6 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-offset-2 col-sm-6  col-xs-offset-2 col-xs-10" id="atk">
-        <div class="sm-featured-text col-lg-6 col-md-6 col-sm-7 col-xs-7" id="left">
+        <div class="sm-featured-image fadeIn col-lg-6 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-offset-2 col-sm-6  col-xs-offset-2 col-xs-10" id="atk">
+        <div class="sm-featured-text fadeIn col-lg-6 col-md-6 col-sm-7 col-xs-7" id="left">
           <h2 class="homepage">America's Test Kitchen</h2>
           <body>UX/UI Design</body>
         </div>
@@ -124,8 +127,8 @@
 
       <div class="row">
         <a href="gooutsafe.html">
-        <div class="sm-featured-image col-lg-6 col-md-6 col-sm-6 col-xs-10" id="goOutSafe">
-        <div class="sm-featured-text col-lg-6 col-md-6 col-sm-7 col-xs-7" id="right">
+        <div class="sm-featured-image fadeIn col-lg-6 col-md-6 col-sm-6 col-xs-10" id="goOutSafe">
+        <div class="sm-featured-text fadeIn col-lg-6 col-md-6 col-sm-7 col-xs-7" id="right">
           <h2 class="homepage">Go Out Safe</h2>
           <body>Identity, Print, & Mobile Add Design</body>
         </div>
@@ -135,7 +138,7 @@
 
 
         <a href="idea.html">
-        <div class="xs-featured-image col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-4" id="idea">
+        <div class="xs-featured-image fadeIn col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-4" id="idea">
           <div class="xs-featured-text">
             <h3>Idea</h3>
           </div>
@@ -188,22 +191,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!-- jQuery for nav -->
-    <script type="text/javascript">
-    $(document).ready(function(){
-      $('.hamburger').click(function() {
-        $('.test-menu').toggleClass('is-open');
-      });
-    });
-    </script>
-
-
-  <script type="text/javascript">
-    function myFunction(x) {
-      x.classList.toggle("change");
-    }
-  </script>
 
   </body>
 </html>

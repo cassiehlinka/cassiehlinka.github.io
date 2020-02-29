@@ -1,3 +1,15 @@
+/* Fade In */
+.fadeIn {
+opacity: 0;
+transition: opacity 2s cubic-bezier(0.23, 1, 0.32, 1), transform 600ms cubic-bezier(0.23, 1, 0.32, 1), box-shadow 600ms cubic-bezier(0.23, 1, 0.32, 1), margin 2.5s cubic-bezier(0.23, 1, 0.32, 1) !important;
+margin-top: 40px;
+}
+
+.fadeIn.visible {
+opacity: 1;
+margin-top: 0;
+}
+
 /*Div properties*/
 
 body {
@@ -42,10 +54,6 @@ body {
 	position: absolute;
 	top: 50%;
 	padding: 25px 25px 30px 25px;
-	-moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
     left: 0;
     transform: translate(-50%,-50%);
 }
@@ -64,10 +72,6 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	position: relative;
-	-moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
 	/*box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.08);*/
 }
 
@@ -90,10 +94,6 @@ body {
 	z-index: 2;
 	padding: 5px 25px 30px 25px;
 	position: absolute;
-	-moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
     right: 0;
     top: 50%;
     transform: translate(40%,-50%);
@@ -107,10 +107,6 @@ body {
 	height: 350px;
 	/*box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.08);*/
 	position: relative;
-	-moz-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-    -o-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
 
 }
 
@@ -151,10 +147,6 @@ body {
 	padding: 0px;
 	position: relative;
 	/*box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.08);*/
-	-moz-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-  	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
     overflow: hidden;
 }
 
@@ -185,11 +177,6 @@ body {
 	margin-top: 100px;
   background-image: url('../images/gaudi_hero.jpg');
 }
-
-/* #highlight.xs-featured-image {
-	margin-top: 50px;
-	background-image: url('../images/highlight_hero.jpg');
-} */
 
 
 #idea.xs-featured-image {
@@ -235,22 +222,6 @@ body {
 	background-repeat: no-repeat;
 	margin-top: 50px;
 }
-
-/* #arch.xs-featured-image {
-	background-image: url('../images/architecture_hero.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-} */
-
-/* #rayel.sm-featured-image {
-	background-image: url('../images/rayel_hero.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	margin-top: 50px;
-
-} */
 
 .test-menu {
 	position: fixed;
@@ -467,6 +438,7 @@ h6 {
 	background-size: contain;
 	background-position: right;
 	background-repeat: no-repeat;
+  margin-bottom: 15px;
 }
 
 #bottles.detail-large-image {
@@ -474,7 +446,6 @@ h6 {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-top: 15px;
 	height: 400px;
 }
 
@@ -510,7 +481,6 @@ h6 {
 	background-repeat: no-repeat;
 	height: 1400px;
 	margin-bottom: 100px;
-	margin-top: 0;
 }
 
 /*About*/
@@ -526,7 +496,6 @@ h6 {
 
 #contact-greeting {
 	padding-top: 0;
-	margin-top: 0;
 }
 
 #contact-page.row {
@@ -551,7 +520,6 @@ h6 {
 	background-position: top;
 	background-repeat: no-repeat;
 	height: 350px;
-	margin-top: 30px;
 }
 
 #atkmobilewires.detail-large-image {
@@ -560,7 +528,6 @@ h6 {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 550px;
-	margin-top: 10px;
 }
 
 #atkoriginalhome.detail-large-image {
@@ -569,10 +536,11 @@ h6 {
 	background-position: top;
 	background-repeat: no-repeat;
 	height: 350px;
+  margin-bottom: 30px;
 }
 
 #atkdesktop.detail-large-image {
-	background-image: url('../images/atk_recipehpdesktop.png');
+	background-image: url('../images/atk_recipehpdesktop.jpg');
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -593,68 +561,6 @@ h6 {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 600px;
-}
-
-/*Highlight*/
-
-#highlight.detail-feature-image {
-	background-image: url('../images/highlight_hero.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-
-#highlightlogos.detail-large-image {
-	background-image: url('../images/highlight_logos.png');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#highlightflogo.detail-large-image {
-	background-image: url('../images/highlight_logofinal.png');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#highlightcolors.detail-large-image {
-	background-image: url('../images/highlight_colors.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#highlighticons.detail-large-image {
-	background-image: url('../images/highlight_icons.png');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	margin-top: 30px;
-}
-
-#highlightstyle1.detail-xl-image {
-	background-image: url('../images/highlight_styleguide1.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 900px;
-}
-
-#highlightstyle2.detail-xl-image {
-	background-image: url('../images/highlight_styleguide2.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 900px;
-}
-
-#highlightmock.detail-xl-image {
-	background-image: url('../images/highlight_mobilemocks.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 /*GoOutSafe*/
@@ -679,6 +585,7 @@ h6 {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+  margin-bottom: 30px;
 }
 
 #gooutposter.detail-large-image {
@@ -686,7 +593,6 @@ h6 {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-top: 30px;
 }
 
 #gooutscreens.detail-large-image {
@@ -984,6 +890,7 @@ h6 {
 #agentlesspattern.detail-large-image {
 	background-image: url('../images/agentless_pattern.png');
 	background-size: cover;
+  margin-bottom: 20px;
 }
 
 #agentlessillustrations.detail-large-image {
@@ -991,7 +898,6 @@ h6 {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-top: 20px;
 	height: 400px;
 }
 
@@ -1005,13 +911,13 @@ h6 {
 	background-image: url('../images/agentless_mockup1.jpg');
 	background-size: cover;
 	height: 600px;
+  margin-bottom: 25px;
 }
 
 #agentlessmock2.detail-xl-image {
 	background-image: url('../images/agentless_mockup2.jpg');
 	background-size: cover;
 	height: 600px;
-	margin-top: 25px;
 }
 
 /*Gaudi*/
@@ -1039,6 +945,7 @@ h6 {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+  margin-bottom: 25px;
 }
 
 #gaudipattern.detail-large-image{
@@ -1046,7 +953,6 @@ h6 {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-top: 25px;
 
 }
 
@@ -1102,6 +1008,7 @@ h6 {
 	background-repeat: no-repeat;
   height: 500px;
   box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.05);
+  margin-bottom: 50px;
 }
 
 #porticoWireframe2.detail-large-image {
@@ -1110,7 +1017,6 @@ h6 {
 	background-position: center;
 	background-repeat: no-repeat;
   box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.05);
-  margin-top: 50px;
 }
 
 #porticoOldDesign.detail-large-image {
@@ -1118,6 +1024,7 @@ h6 {
 	background-size: cover;
   height: 700px;
   box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.05);
+  margin-bottom: 50px;
 }
 
 #porticoMobile.detail-large-image {
@@ -1125,7 +1032,6 @@ h6 {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-top: 50px;
 	height: 400px;
 }
 
@@ -1133,20 +1039,20 @@ h6 {
 	background-image: url('../images/portico_mockup_1@2x.jpg');
 	background-size: cover;
 	height: 600px;
+  margin-bottom: 25px;
 }
 
 #porticomock2.detail-xl-image {
 	background-image: url('../images/portico_mockup_2@2x.jpg');
 	background-size: cover;
 	height: 600px;
-	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 #porticomock3.detail-xl-image {
 	background-image: url('../images/portico_mockup_3@2x.jpg');
 	background-size: cover;
 	height: 600px;
-	margin-top: 25px;
 }
 
 /* JOSH */
@@ -1172,6 +1078,7 @@ h6 {
 #joshfurniture1.detail-large-image {
 	background-image: url('../images/josh_furniture_1.jpg');
 	background-size: cover;
+  margin-bottom: 20px;
 }
 
 #joshfurniture2.detail-large-image {
@@ -1179,7 +1086,6 @@ h6 {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-top: 20px;
 	height: 400px;
 }
 
@@ -1193,13 +1099,6 @@ h6 {
 	background-image: url('../images/joshmock1@2x.jpg');
 	background-size: cover;
 	height: 600px;
-}
-
-#agentlessmock2.detail-xl-image {
-	background-image: url('../images/agentless_mockup2.jpg');
-	background-size: cover;
-	height: 600px;
-	margin-top: 25px;
 }
 
 
@@ -1237,12 +1136,15 @@ h6 {
 		transform: translate(160%, 10%);
 	}
 
-	#logos.detail-large-image {
-		margin-top: 100px;
+	#sketch.detail-large-image {
+		margin-bottom: 100px;
 	}
 
+  #label.detail-large-image {
+    margin-bottom: 75px;
+  }
+
 	#bottles.detail-large-image {
-		margin-top: 75px;
 		height: 250px;
 	}
 
@@ -1286,8 +1188,8 @@ h6 {
 
 	/*ATK*/
 
-	#atksketch.detail-large-image {
-		margin-top: 50px;
+	#atkoriginalhome.detail-large-image {
+		margin-bottom: 50px;
 	}
 
 	#atkmobilewires.detail-large-image {
@@ -1295,9 +1197,12 @@ h6 {
 		background-position: right;
 	}
 
+  #atkmobilewires.detail-large-image {
+    margin-bottom: 150px;
+  }
+
 	#atkdesktop.detail-large-image {
 		height: 660px;
-		margin-top: 150px;
 	}
 
 	#atkmobilescreen.detail-xl-image {
@@ -1314,8 +1219,8 @@ h6 {
 		height: 300px;
 	}
 
-	#gooutposter.detail-large-image {
-		margin-top: 125px;
+	#gooutcups.detail-large-image {
+		margin-bottom: 125px;
 	}
 
 
@@ -1427,11 +1332,11 @@ h6 {
 
 	#agentlessmock1.detail-xl-image {
 	height: 420px;
+  margin-bottom: 15px;
 	}
 
 	#agentlessmock2.detail-xl-image {
 	height: 420px;
-	margin-top: 15px;
 	}
 
 	#agentlessillustrations.detail-large-image {
@@ -1561,10 +1466,6 @@ h6 {
 		margin-top: 25px;
 	}
 
-	#highlight.xs-featured-image {
-		margin-top: 25px;
-	}
-
 	/*Detail*/
 
 	.detail-small-image {
@@ -1574,12 +1475,15 @@ h6 {
 
 	.detail-feature {
 		padding: 0;
-		margin: 0;
 	}
 
 	.labels {
 		padding-bottom: 2px;
 	}
+
+  .detail-feature-text {
+    margin-bottom: 25px;
+  }
 
 	.detail-featured-text {
 		padding: 0px 15px 15px 15px;
@@ -1593,7 +1497,6 @@ h6 {
 	.detail-feature-image {
 		height: 250px;
 		padding: 0px;
-		margin-top: 25px;
 	}
 
 	.detail-text-large {
@@ -1613,13 +1516,16 @@ h6 {
 		margin-bottom: 50px;
 	}
 
-	#logos.detail-large-image {
-		margin-top: 200px;
+	#sketch.detail-large-image {
+		margin-bottom: 200px;
 	}
+
+  #label.detail-large-image {
+    margin-bottom: 200px;
+  }
 
 	#bottles.detail-large-image {
 		height: 150px;
-		margin-top: 200px;
 	}
 
 	.detail-xl-image {
@@ -1649,10 +1555,10 @@ h6 {
 
 	#profile {
 		height: 400px;
+    margin-bottom: 50px;
 	}
 
 	.bio {
-		margin: 50px 0px 0px 0px;
 		padding: 0;
 	}
 
@@ -1668,20 +1574,20 @@ h6 {
 
 	#atkoriginalhome.detail-large-image {
 		height: 200px;
+    margin-bottom: 150px;
 	}
 
 	#atksketch.detail-large-image {
 		height: 200px;
-		margin-top: 150px;
 	}
 
 	#atkmobilewires.detail-large-image {
 		height: 200px;
+    margin-bottom: 175px;
 	}
 
 	#atkdesktop.detail-large-image {
 		height: 375px;
-		margin-top: 175px;
 	}
 
 	#atkmobilescreen.detail-xl-image {
@@ -1690,23 +1596,6 @@ h6 {
 
 	#atkdeskscreen.detail-xl-image {
 		height: 250px;
-	}
-
-	/*Highlight*/
-	#highlightflogo.detail-large-image {
-		margin-top: 175px;
-	}
-
-	#highlighticons.detail-large-image {
-		margin-top: 175px;
-	}
-
-	#highlightstyle1.detail-xl-image {
-		height: 300px;
-	}
-
-	#highlightstyle2.detail-xl-image {
-		height: 300px;
 	}
 
 
@@ -1724,8 +1613,11 @@ h6 {
 		margin-top: 100px;
 	}
 
+  #gooutcups.detail-large-image {
+    margin-bottom: 200px;
+  }
+
 	#gooutposter.detail-large-image {
-	margin-top: 200px;
 	background-size: contain;
 	}
 
@@ -1797,94 +1689,18 @@ h6 {
 		border: none;
 	}
 
-	/*Architecture*/
-
-
-	#arch13.detail-xl-image {
-		height: 125px;
-		border: none;
-	}
-
-	#arch11.detail-m-image {
-		height: 275px;
-	}
-
-	#arch12.detail-m-image {
-		height: 275px;
-	}
-
-	#arch1model.detail-xl-image {
-		height: 250px;
-		border: none;
-		margin-top: 15px;
-	}
-
-	#arch23.detail-xl-image {
-		height: 125px;
-		border: none;
-	}
-
-	#arch21.detail-m-image {
-		height: 275px;
-	}
-
-	#arch22.detail-m-image {
-		height: 275px;
-	}
-
-	#arch2model.detail-xl-image {
-		height: 250px;
-		border: none;
-		margin-top: 15px;
-	}
-
-	#arch31.detail-xl-image {
-		height: 125px;
-		border: none;
-	}
-
-	#arch32.detail-xl-image {
-		height: 125px;
-		border: none;
-	}
-
-	#arch3model.detail-xl-image {
-		height: 250px;
-		border: none;
-		margin-top: 15px;
-	}
-
-	/*Rayel*/
-
-	#rayellogofinal.detail-xl-image {
-		height: 200px;
-		border: none;
-	}
-
-	#rayellogo1.detail-m-image {
-		height: 400px;
-	}
-
-	#rayellogo2.detail-m-image {
-		height: 400px;
-	}
-
-	#rayellogo3.detail-m-image {
-		height: 400px;
-	}
-
 	/*Agentless*/
 
 	#agentlesslogosketches.detail-large-image {
 	height: 180px;
+  margin-bottom: 100px;
 	}
 
-	#agentlesslogo.detail-large-image {
-	margin-top: 100px;
-	}
+  #agentlesspattern.detail-large-image {
+    	margin-bottom: 120px;
+  }
 
 	#agentlessillustrations.detail-large-image {
-	margin-top: 120px;
 	height: 150px;
 	}
 
@@ -1898,25 +1714,25 @@ h6 {
 
 	#agentlessmock1.detail-xl-image {
 	height: 200px;
+  margin-botom: 15px;
 	}
 
 	#agentlessmock2.detail-xl-image {
 	height: 200px;
-	margin-top: 15px;
 	}
 
 	/*Gaudi*/
 
 	#gaudilogosketches.detail-large-image {
 	height: 180px;
+  margin-bottom: 120px;
 	}
 
-	#gaudilogo.detail-large-image {
-	margin-top: 120px;
-	}
+  #gaudicolors.detail-large-image {
+    margin-bottom: 150px;
+  }
 
 	#gaudipattern.detail-large-image{
-	margin-top: 150px;
 	height: 200px;
 
 	}
