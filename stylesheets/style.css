@@ -1101,6 +1101,54 @@ h6 {
 	height: 600px;
 }
 
+/* GITHUB COVER LETTER */
+.row.coverLetter {
+  text-align: center;
+  margin: 10vh 0 30vh 0;
+}
+.coverLetter h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+.coverLetter h2 {
+  font-family: 'Muli', arial, sans-serif;
+  font-size: 37px;
+  line-height: 1.2em;
+}
+.coverLetter h3 {
+  font-size: 23px;
+  line-height: 1.2em;
+  color: #666666;
+}
+.coverLetter p{
+  font-size: 20px;
+  line-height: 1.7em;
+  text-align: left;
+}
+.coverLetter a {
+  color: #642240;
+  border-bottom: 1px solid #642240;
+}
+.coverLetter a:hover {
+  color: #666666;
+  border-color: #666666;
+}
+#coverLetter_intro {
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+.coverLetter #contact p {
+  text-align: center;
+}
+.coverLetter #contact a {
+  color: #666666;
+  border-bottom: none;
+}
+.coverLetter #contact a:hover {
+  color: #642240;
+}
+
 
 /*Media Query Tablet*/
 
@@ -1753,5 +1801,12 @@ h6 {
   #porticoMobile.detail-large-image {height: 240px;}
   #porticomock1.detail-xl-image, #porticomock2.detail-xl-image {height: 315px;}
   #porticomock3.detail-xl-image {height: 275px;}
+
+  /* GITHUB COVER LETTER */
+  .coverLetter h1 {font-size: 37px;}
+  .coverLetter h2 {font-size: 26px;}
+  .coverLetter h3 {font-size: 20px;}
+  .coverLetter h4 {font-size: 16px; line-height: 1.5em;}
+  .coverLetter p{font-size: 18px;}
 
 }
